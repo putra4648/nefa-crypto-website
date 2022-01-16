@@ -26,8 +26,8 @@ export default function MainHeader() {
             sx={{
               fontWeight: 700,
               background: `linear-gradient(${lightBlue[200]}, ${blue[600]})`,
-              '-webkit-background-clip': 'text',
-              '-webkit-text-fill-color': 'transparent',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
             }}
           >
             Fastest Growing
