@@ -52,25 +52,20 @@ export default function Exchange(): ReactJSXElement {
                     borderRadius: '22px',
                   },
                   startAdornment: (
-                    <InputAdornment
-                      position='start'
-                      variant='outlined'
-                      sx={{ px: 2, py: 4, color: 'secondary.main' }}
+                    <Stack
+                      direction='row'
+                      alignItems='center'
+                      width='fit-content'
+                      spacing={2}
+                      sx={{ p: 3, color: 'secondary.main' }}
                     >
-                      <Stack
-                        direction='row'
-                        alignItems='center'
-                        width='fit-content'
-                        spacing={2}
-                      >
-                        <Typography sx={{ minWidth: 80 }}>Amount</Typography>
-                        <Divider
-                          sx={{ color: 'secondary.main', border: 1 }}
-                          orientation='vertical'
-                          flexItem
-                        />
-                      </Stack>
-                    </InputAdornment>
+                      <Typography sx={{ minWidth: 80 }}>Amount</Typography>
+                      <Divider
+                        sx={{ color: 'secondary.main', border: 1 }}
+                        orientation='vertical'
+                        flexItem
+                      />
+                    </Stack>
                   ),
                 }}
               />
@@ -116,25 +111,20 @@ export default function Exchange(): ReactJSXElement {
                     borderRadius: 5,
                   },
                   startAdornment: (
-                    <InputAdornment
-                      position='start'
-                      variant='outlined'
-                      sx={{ px: 2, py: 4, color: 'secondary.main' }}
+                    <Stack
+                      direction='row'
+                      alignItems='center'
+                      width='fit-content'
+                      spacing={2}
+                      sx={{ p: 3, color: 'secondary.main' }}
                     >
-                      <Stack
-                        direction='row'
-                        alignItems='center'
-                        width='fit-content'
-                        spacing={2}
-                      >
-                        <Typography sx={{ minWidth: 80 }}>Get</Typography>
-                        <Divider
-                          sx={{ color: 'secondary.main', border: 1 }}
-                          orientation='vertical'
-                          flexItem
-                        />
-                      </Stack>
-                    </InputAdornment>
+                      <Typography sx={{ minWidth: 80 }}>Get</Typography>
+                      <Divider
+                        sx={{ color: 'secondary.main', border: 1 }}
+                        orientation='vertical'
+                        flexItem
+                      />
+                    </Stack>
                   ),
                 }}
               />
