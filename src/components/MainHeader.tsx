@@ -28,8 +28,10 @@ export default function MainHeader() {
         sx={{ position: 'absolute', width: 2 / 4, top: '15%', left: '5%' }}
       >
         <Typography color='secondary.main'>SIGN UP TODAY</Typography>
-        <Typography variant='h2' sx={{ fontWeight: 700 }}>
-          The World’s{' '}
+        <Box>
+          <Typography variant='h2' sx={{ fontWeight: 700 }}>
+            The World’s
+          </Typography>
           <Typography
             variant='h2'
             sx={{
@@ -40,9 +42,9 @@ export default function MainHeader() {
             }}
           >
             Fastest Growing
-          </Typography>{' '}
-          Crypto Web App
-        </Typography>
+          </Typography>
+          <Typography variant='h2'>Crypto Web App</Typography>
+        </Box>
         <Typography
           variant='subtitle1'
           sx={{ color: (theme) => theme.palette.text.disabled }}

@@ -1,5 +1,6 @@
 import { ReactJSXElement } from '@emotion/react/types/jsx-namespace';
 import {
+  Box,
   Button,
   Container,
   Grid,
@@ -23,8 +24,10 @@ export default function CryptoMining(): ReactJSXElement {
       <Grid container item lg={12} alignItems='center' gap={10} p={15}>
         <Grid item lg>
           <Stack direction='column' spacing={2}>
-            <Typography variant='h4'>
-              Advanced Trading {''}
+            <Box>
+              <Typography sx={{ display: 'inline' }} variant='h4'>
+                Advanced Trading{' '}
+              </Typography>
               <Typography
                 variant='h4'
                 sx={{
@@ -36,7 +39,7 @@ export default function CryptoMining(): ReactJSXElement {
               >
                 Tools
               </Typography>
-            </Typography>
+            </Box>
 
             <List>
               <Stack direction='column' spacing={2}>
