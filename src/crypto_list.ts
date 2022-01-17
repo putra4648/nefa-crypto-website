@@ -16,8 +16,20 @@ import share from '../src/images/icons/2share.svg';
 
 import chartGreen from '../src/images/icons/chart_green.svg';
 import chartRed from '../src/images/icons/chart_red.svg';
+type Crypto = {
+  name: string;
+  iconUrl: string;
+  price: number;
+  chartUrl: string;
+};
 
-const cryptoList: object[] = [
+type CryptoDetail = {
+  name: string;
+  columns: string[];
+  cryptos: Crypto[];
+};
+
+const cryptoList: CryptoDetail[] = [
   {
     name: '🔥 Trending',
     columns: ['Name', 'Price', 'Chart'],

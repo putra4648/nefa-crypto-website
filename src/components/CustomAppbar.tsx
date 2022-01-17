@@ -31,14 +31,14 @@ export default function CustomAppbar() {
             <Button
               variant='outlined'
               color='secondary'
-              sx={{ borderRadius: 5 }}
+              sx={{ borderRadius: 5, py: 1, px: 4 }}
             >
               Login
             </Button>
             <Button
               variant='contained'
               color='secondary'
-              sx={{ borderRadius: 5 }}
+              sx={{ borderRadius: 5, py: 1, px: 4 }}
             >
               Sign Up
             </Button>
