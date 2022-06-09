@@ -6,6 +6,12 @@
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
+  "license": "MIT",
+  "author": {
+    "name": "Pradana",
+    "email": "wakwaujaim@gmail.com",
+    "url": "https://dan-tech.online"
+  },
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
